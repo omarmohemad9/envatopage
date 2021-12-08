@@ -434,6 +434,16 @@ body {
   -o-border-radius: 10px;
   transition-duration: 0.2s;
 }
+@media (max-width: 992px) {
+    .content-boxs-2 .container .box-2 .bx-1 {
+        width:48%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 99%;
+    }
+}
 .content-boxs-2 .container .box-2 .bx-1:hover {
   transform: translateY(-5px);
   -webkit-transform: translateY(-5px);
