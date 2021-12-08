@@ -440,7 +440,7 @@ body {
     }
 }
 @media (max-width: 768px) {
-    .container {
+    .content-boxs-2 .container .box-2 .bx-1 {
         width: 99%;
     }
 }
