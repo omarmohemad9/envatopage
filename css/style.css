@@ -307,7 +307,7 @@ body {
 .content-boxs-1 .flex-content-boxs {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 24px;
 }
 @media (max-width: 768px) {
   .content-boxs-1 .flex-content-boxs {
@@ -533,11 +533,18 @@ body {
   gap: 10px;
 }
 
+@media (max-width: 768px) {
+  .content-2 .container {
+    flex-direction:column;
+  }
+}
+
 .content-2 .container .left-2-content {
   display: flex;
   padding: 20px;
   box-shadow: 0px 0px 10px #00000059;
 }
+
 
 .content-2 .container .left-2-content:first-child {
   background-color: #1a1a1a;
